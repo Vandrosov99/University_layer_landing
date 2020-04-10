@@ -180,3 +180,17 @@ header {
 .info__item {
   margin: 10px 15px 25px 15px;
 }
+
+footer {
+  background: rgb(31, 29, 29);
+  color: #fff;
+}
+
+@media (max-width: 740px) {
+  .info {
+    flex-wrap: wrap;
+  }
+  .numbers {
+    display: none;
+  }
+}
