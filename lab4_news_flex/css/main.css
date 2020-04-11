@@ -46,3 +46,211 @@ nav {
 .nav-links a {
   text-decoration: none;
 }
+
+li.subscribe {
+  position: relative;
+  padding-left: 40px;
+}
+
+.subscribe:before {
+  font-family: "Material Icons";
+  content: "mail_outline";
+  margin-right: 15px;
+  position: absolute;
+  top: 8px;
+  left: 7px;
+  font-size: 26px;
+}
+
+li.last {
+  padding-right: 25px;
+  position: relative;
+}
+
+.last:after {
+  font-family: "Material Icons";
+  content: "expand_more";
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+
+.last:before {
+  font-family: "Material Icons";
+  content: "search";
+  position: absolute;
+  left: -8px;
+}
+
+
+.bord {
+  color: rgb(164, 195, 236);
+  border: 1px solid gray;
+  margin: 0 20px;
+}
+
+.icon-search .material-icons {
+  font-size: 20px;
+}
+
+.item1 {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: -1px;
+  cursor: pointer;
+}
+
+.icon .material-icons {
+  font-size: 40px;
+  color: rgb(164, 195, 236);
+}
+
+.logo {
+  margin-left: 83px;
+  padding: 10px;
+}
+
+
+.drop-down {
+  position: absolute;
+  top: 30px;
+  left: 2px;
+  display: none;
+  transition: display 1s linear;
+}
+
+.drop-down ul {
+  list-style: none;
+}
+
+.drop-down ul li {
+  font-size: 12px;
+  color: gray;
+}
+
+li.last div.drop-down ul li {
+  border-color: white;
+}
+
+.main__items {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.date {
+  margin: 10px 0;
+}
+
+.main__item {
+  width: 47%;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  min-width: 350px;
+}
+
+.main__items h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  color: black;
+  margin-bottom: 65px;
+}
+
+.section__media h4.author,
+.section__media .anons,
+.section__media .date,
+.section__media hr.stripe {
+  margin-bottom: 20px;
+}
+
+h4.author {
+  letter-spacing: 3px;
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr.stripe {
+  border-width: 1.1px;
+  border-color: lightgray;
+  background: lightgray;
+}
+
+.anons {
+  color: black;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.blogg__link_text a {
+  border: none;
+  text-decoration: none;
+}
+
+.blogg__more {
+  position: relative;
+  padding-left: 75px;
+  margin-top: 40px;
+}
+
+.blogg__more a {
+
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.text-blue {
+  color: lightblue;
+
+}
+
+
+
+.blogg__more a .arrow__line {
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+
+.blogg__more:before {
+  content: '>';
+  position: absolute;
+  left: 50px;
+}
+
+.images img {
+  height: 180px;
+  width: 180px;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+/* 
+.images {
+  width: 180px;
+} */
+
+.section__experts {
+  height: 225px;
+  margin-left: 25px;
+}
+
+.left_block_wrapper {
+  display: flex;
+}
+
+.section__experts .author {
+  margin-bottom: 20px;
+}
+
+.section__experts .anons {
+  margin-bottom: 20px;
+}
+
+p.second__one {
+  margin-top: -15px;
+}
