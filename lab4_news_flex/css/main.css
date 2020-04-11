@@ -254,3 +254,43 @@ hr.stripe {
 p.second__one {
   margin-top: -15px;
 }
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #f3f3f0;
+  padding: 60px 25px 20px 90px;
+}
+
+.footer__logo a {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 4px;
+}
+
+.footer__contacts,
+.footer__adress,
+.footer__social {
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+}
+
+.footer__studio,
+.footer__adress_info,
+.footer__contacts_info {
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.svg__item {
+  width: 20px;
+  height: 20px;
+  border: none;
+  margin-right: 40px;
+}
+
+.footer__icons {
+  margin-bottom: 10px;
+}
