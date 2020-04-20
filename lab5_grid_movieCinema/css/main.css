@@ -79,3 +79,108 @@ header h2 {
   cursor: pointer;
   margin-right: 20px;
 }
+
+
+
+.grid_main {
+  margin-top: 40px;
+  margin-bottom: 90px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.grid_main div {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.grid_main_item1 {
+  background: url("../images/gamecenter-230x230.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.grid_main_item2 {
+  background: url("../images/Flipclock230x462.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.grid_main_item3 {
+  background: #ffc003;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid_main_item4 {
+  background: #ffc003;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid_main_item5 {
+  background: url("../images/plane230x230.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid_main_item6 {
+  background: url("../images/car230x230.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid_main_item7 {
+  background: #ff3e12;
+  width: 100%;
+  height: 462px;
+}
+
+.grid_main_item8 {
+  background: url("../images/movie230x230.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid_main_item9 {
+  background: url("../images/history230x230.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid_main_item10 {
+  background: #ff7d04;
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+.grid_main_item11 {
+  background: #ffc003;
+  width: 100px;
+  height: 230px;
+} */
+
+.grid_main_item7 img {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.grid_main_item3 img {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.grid_main div h3 {
+  font-family: "Oswald";
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}
