@@ -184,3 +184,101 @@ header h2 {
   bottom: 10px;
   left: 15px;
 }
+
+footer {
+  background: black;
+  color: white;
+}
+
+.footer__item1 {
+  grid-area: dart;
+}
+
+.footer__item2 {
+  grid-area: atos;
+}
+
+.footer__item3 {
+  grid-area: portos;
+}
+
+.footer__wrapper {
+  display: grid;
+  grid-template-areas: 'dart atos portos';
+  padding: 50px;
+}
+
+.footer__item {
+  padding: 0 20px;
+}
+
+.footer__item h3 {
+  font-family: "Oswald";
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.footer__item1 p {
+  font-size: 15px;
+  color: #9e9e9e;
+}
+
+.footer__item2 a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 7px;
+  background: #ffc003;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+
+.footer__item3 li {
+  list-style: none;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px;
+  padding-left: 18px;
+
+}
+
+
+@media (max-width: 1015px) {
+  .grid_main {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+
+  }
+}
+
+
+
+@media (max-width: 845px) {
+  .grid_main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+  }
+}
+
+
+
+
+@media (max-width: 580px) {
+  .grid_main {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+  }
+}
+
+
+
+@media (min-width: 1px) and (max-width:400px) {
+  .grid_main {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+
+  }
+}
